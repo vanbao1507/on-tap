@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thêm bài viết</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h2>Thêm Bài Viết</h2>
+    <form id="postForm">
+        <label for="title">Tiêu đề:</label>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="body">Nội dung:</label>
+        <textarea id="body" name="body"></textarea><br><br>
+        <button type="submit" onclick="submit(event)">Add Post</button>
+    </form>
+    <div id="message"></div>
+
+  <script src="example6.js"></script>
+</body>
+</html>
